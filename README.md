@@ -26,7 +26,7 @@ The system was developed to explore how programming and database technologies ca
 |---|---|
 | Python | Application logic and inventory calculations |
 | Streamlit | Interactive web application |
-| SQLite | Persistent inventory and transaction data |
+| SQLite | Local database for inventory records and stock movement transactions |
 | CSV | Report generation and data export |
 
 ## Inventory Management Logic
@@ -68,6 +68,8 @@ Drawing on my experience in logistics and warehouse operations, I wanted to expl
 ## Disclaimer
 
 AIMS is a simulated portfolio prototype developed for educational purposes. It is not intended for production warehouse operations.
+
+Deployment Note: The live demonstration uses a local SQLite database hosted within Streamlit Community Cloud. Inventory changes and transaction records may be reset when the application restarts or is redeployed. The system is intended to demonstrate inventory management functionality rather than provide permanent data storage.
 
 ---
 
