@@ -8,7 +8,7 @@
 
 ### Inventory Dashboard
 
-![AIMS Inventory Dashboard](aims_dashboard.png)
+![AIMS Inventory Dashboard](aims-dashboard.png)
 
 Explore the interactive warehouse inventory management prototype, including inventory tracking, stock movements, replenishment monitoring, and reporting.
 
