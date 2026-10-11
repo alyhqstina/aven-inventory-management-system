@@ -1,0 +1,62 @@
+# AVEN Inventory Management System (AIMS)
+
+**A Python-Based Warehouse Inventory Management System**
+
+AIMS is a prototype inventory management application developed using Python, Streamlit, and SQLite. The project demonstrates how digital tools can support warehouse operations through inventory tracking, stock movement recording, replenishment monitoring, and data visualisation.
+
+![Aven Logistics Logo](aven_logo.png)
+
+## Project Objectives
+
+The system was developed to explore how programming and database technologies can improve inventory visibility, reduce reliance on manual tracking, and support stock replenishment decisions.
+
+## Key Features
+
+- **Inventory Dashboard:** Displays total stock, number of SKUs, reorder alerts, and suggested replenishment quantities.
+- **Inventory Records:** Allows users to view, search, filter, and add products.
+- **Stock Movement Management:** Records stock-in and stock-out transactions and updates inventory quantities.
+- **Replenishment Alerts:** Identifies products requiring replenishment based on predefined reorder points.
+- **Stock Movement Analytics:** Summarises stock movements and transaction history.
+- **Inventory Reports:** Enables users to export inventory and replenishment data as CSV files.
+- **Data Visualisation:** Displays stock status and inventory performance through charts.
+
+## Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Application logic and inventory calculations |
+| Streamlit | Interactive web application |
+| SQLite | Persistent inventory and transaction data |
+| CSV | Report generation and data export |
+
+## Inventory Management Logic
+
+AIMS uses predefined reorder points to identify products that require replenishment.
+
+**Suggested Replenishment = Maximum(0, Reorder Point − Current Stock)**
+
+The application also records stock movements to maintain updated inventory quantities.
+
+## Project Background
+
+This project was developed as part of my independent learning in programming and digital supply chain solutions.
+
+Drawing on my experience in logistics and warehouse operations, I wanted to explore how Python-based applications could be used to support inventory control and operational decision-making.
+
+## Future Improvements
+
+- User authentication and access controls
+- Barcode scanning integration
+- Supplier and purchase order management
+- Enhanced inventory analytics
+- Database scalability and deployment improvements
+
+## Disclaimer
+
+AIMS is a simulated portfolio prototype developed for educational purposes. It is not intended for production warehouse operations.
+
+---
+
+**Developed by Aliyah Nur Qistina**
+
+*Logistics & Supply Chain Management | Python | Digital Supply Chain Solutions*
