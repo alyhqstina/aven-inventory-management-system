@@ -6,6 +6,10 @@
 
 Explore the interactive warehouse inventory management prototype, including inventory tracking, stock movements, replenishment monitoring, and reporting.
 
+
+AIMS is a prototype inventory management application developed using Python, Streamlit, and SQLite. The project demonstrates how digital tools can support warehouse operations through inventory tracking, stock movement recording, replenishment monitoring, and data visualisation.
+
+
 ## Application Preview
 
 ### Inventory Dashboard
@@ -19,9 +23,6 @@ Explore the interactive warehouse inventory management prototype, including inve
 ### Stock Movement Analytics
 
 ![AIMS Stock Movement Analytics](aims-stock-movements.png)
-
-
-AIMS is a prototype inventory management application developed using Python, Streamlit, and SQLite. The project demonstrates how digital tools can support warehouse operations through inventory tracking, stock movement recording, replenishment monitoring, and data visualisation.
 
 ![Aven Logistics Logo](aven_logo.png)
 
