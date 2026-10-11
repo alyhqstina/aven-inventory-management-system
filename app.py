@@ -2,6 +2,7 @@
 import streamlit as st
 
 import sqlite3
+import database
 
 # Page configuration
 st.set_page_config(
