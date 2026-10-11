@@ -37,6 +37,20 @@ AIMS uses predefined reorder points to identify products that require replenishm
 
 The application also records stock movements to maintain updated inventory quantities.
 
+### Reorder Alert Logic
+
+AIMS adopts a proactive inventory monitoring approach by triggering reorder alerts when current stock reaches or falls below the predefined reorder point.
+
+**Reorder Alert Condition:**
+
+`Current Stock <= Reorder Point`
+
+For example, if a product has a reorder point of 100 units, AIMS triggers an alert when stock reaches 100 units, allowing warehouse personnel to review replenishment requirements before stock levels decline further.
+
+This approach supports early stock monitoring, replenishment planning, and timely inventory control decisions.
+
+**Note:** Reorder alerts and suggested replenishment quantities serve different purposes. A product at its reorder point will trigger an alert, even when its suggested replenishment quantity is zero. Future improvements could incorporate safety stock, supplier lead times, and demand variability.
+
 ## Project Background
 
 This project was developed as part of my independent learning in programming and digital supply chain solutions.
